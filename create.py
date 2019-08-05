@@ -24,7 +24,7 @@ for root, dirs, files in os.walk('.'):
                     f.write(content)
 
             if filename.find('Templateproject') != -1:
-                newfilename = filename.replace("Templateproject", sys.argv[1])
+                newfilename = filename.replace("QBTemplate", sys.argv[1])
                 newfilepath = os.path.join(root, newfilename)
                 os.system("mv %s %s" % (filepath, newfilepath))
 
@@ -32,7 +32,7 @@ for root, dirs, files in os.walk('.'):
     if root.find("Pods") == -1 and root.find(".git") == -1:
         for directory in dirs:
             if directory.find('Templateproject') != -1:
-                newdir = directory.replace("Templateproject", sys.argv[1])
+                newdir = directory.replace("QBTemplate", sys.argv[1])
                 os.system("mv %s %s" % (directory, newdir))
 
 os.system('git add -A && git commit -am "init" -q')

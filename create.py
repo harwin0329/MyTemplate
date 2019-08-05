@@ -18,12 +18,12 @@ for root, dirs, files in os.walk('.'):
 
             content = open(filepath).read()
 
-            if 'Templateproject' in content:
-                content = content.replace('Templateproject', sys.argv[1])
+            if 'QBTemplate' in content:
+                content = content.replace('QBTemplate', sys.argv[1])
                 with open(filepath, 'w') as f:
                     f.write(content)
 
-            if filename.find('Templateproject') != -1:
+            if filename.find('QBTemplate') != -1:
                 newfilename = filename.replace("QBTemplate", sys.argv[1])
                 newfilepath = os.path.join(root, newfilename)
                 os.system("mv %s %s" % (filepath, newfilepath))
@@ -31,7 +31,7 @@ for root, dirs, files in os.walk('.'):
 for root, dirs, files in os.walk('.'):
     if root.find("Pods") == -1 and root.find(".git") == -1:
         for directory in dirs:
-            if directory.find('Templateproject') != -1:
+            if directory.find('QBTemplate') != -1:
                 newdir = directory.replace("QBTemplate", sys.argv[1])
                 os.system("mv %s %s" % (directory, newdir))
 

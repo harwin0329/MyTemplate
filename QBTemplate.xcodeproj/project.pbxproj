@@ -118,8 +118,6 @@
 		032A03DC22F7B87400FA4C87 /* QBTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				032A041022F7B9C300FA4C87 /* Images */,
-				032A040F22F7B9B900FA4C87 /* Classess */,
 				032A03DD22F7B87400FA4C87 /* AppDelegate.h */,
 				032A03DE22F7B87400FA4C87 /* AppDelegate.m */,
 				032A03E022F7B87400FA4C87 /* ViewController.h */,
@@ -149,20 +147,6 @@
 				032A040322F7B87600FA4C87 /* Info.plist */,
 			);
 			path = QBTemplateUITests;
-			sourceTree = "<group>";
-		};
-		032A040F22F7B9B900FA4C87 /* Classess */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Classess;
-			sourceTree = "<group>";
-		};
-		032A041022F7B9C300FA4C87 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 		0B05D0B1353A643175ECB440 /* Pods */ = {

@@ -7,7 +7,7 @@
 
 ```
 createproject() {
-  git clone git@gitee.com:doubiliu/Templateproject.git $1
+  git clone git@gitee.com:qubukeji/QBTemplate.git $1
   cd $1
   python create.py $1
 }

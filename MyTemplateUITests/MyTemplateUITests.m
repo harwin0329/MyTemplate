@@ -1,6 +1,6 @@
 //
-//  QBTemplateUITests.m
-//  QBTemplateUITests
+//  MyTemplateUITests.m
+//  MyTemplateUITests
 //
 //  Created by 刘峰 on 2019/8/5.
 //  Copyright © 2019 刘峰. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface QBTemplateUITests : XCTestCase
+@interface MyTemplateUITests : XCTestCase
 
 @end
 
-@implementation QBTemplateUITests
+@implementation MyTemplateUITests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
